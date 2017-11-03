@@ -1,3 +1,5 @@
+set(CMAKE_CXX_STANDARD 11)
+
 cmake_minimum_required(VERSION 2.8.3)
 project(kinova_arm_moveit_demo)
 
@@ -62,3 +64,4 @@ install(TARGETS test_accuracy DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 #foreach (_variableName ${_variableNames})
 #    message(STATUS "${_variableName}=${${_variableName}}")
 #endforeach()
+

@@ -1,5 +1,6 @@
 #include <pick_place.h>
 #include <ros/console.h>
+#include <memory>
 
 #include <tf_conversions/tf_eigen.h>
 

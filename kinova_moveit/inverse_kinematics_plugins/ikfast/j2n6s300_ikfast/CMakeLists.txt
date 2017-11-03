@@ -1,3 +1,5 @@
+set(CMAKE_CXX_STANDARD 11)
+
 cmake_minimum_required(VERSION 2.8.3)
 project(j2n6s300_ikfast)
 
@@ -7,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   tf_conversions
 )
-
+set (CMAKE_CXX_STANDARD 11)
 include_directories(${catkin_INCLUDE_DIRS})
 
 catkin_package(
@@ -36,3 +38,4 @@ install(
   DESTINATION
   ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+

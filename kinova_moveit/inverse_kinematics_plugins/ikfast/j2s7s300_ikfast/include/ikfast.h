@@ -33,6 +33,7 @@
 #include <vector>
 #include <list>
 #include <stdexcept>
+#include <memory>
 
 #ifndef IKFAST_HEADER_COMMON
 #define IKFAST_HEADER_COMMON

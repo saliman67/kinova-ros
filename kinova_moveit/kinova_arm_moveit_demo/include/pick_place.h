@@ -27,6 +27,8 @@
 #include <moveit_msgs/DisplayRobotState.h>
 #include <moveit_msgs/ApplyPlanningScene.h>
 #include <moveit_msgs/DisplayTrajectory.h>
+#include <memory>
+
 
 namespace kinova
 {

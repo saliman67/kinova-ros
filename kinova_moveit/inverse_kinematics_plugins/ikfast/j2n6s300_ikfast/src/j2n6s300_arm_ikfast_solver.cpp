@@ -30,6 +30,7 @@ IKFAST_COMPILE_ASSERT(IKFAST_VERSION==0x10000049);
 #include <limits>
 #include <algorithm>
 #include <complex>
+#include <memory>
 
 #ifndef IKFAST_ASSERT
 #include <stdexcept>

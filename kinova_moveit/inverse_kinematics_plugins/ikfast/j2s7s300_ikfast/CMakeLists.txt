@@ -1,6 +1,8 @@
+set(CMAKE_CXX_STANDARD 11)
+
 cmake_minimum_required(VERSION 2.8.3)
 project(j2s7s300_ikfast)
-
+set (CMAKE_CXX_STANDARD 11)
 find_package(catkin REQUIRED COMPONENTS
   moveit_core
   pluginlib
@@ -36,3 +38,4 @@ install(
   DESTINATION
   ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+

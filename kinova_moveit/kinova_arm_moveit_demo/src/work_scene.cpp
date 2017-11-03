@@ -5,7 +5,7 @@
 #include <moveit_msgs/PlanningScene.h>
 #include <moveit_msgs/AttachedCollisionObject.h>
 #include <moveit_msgs/ApplyPlanningScene.h>
-
+#include <memory>
 
 
 int main(int argc, char** argv)

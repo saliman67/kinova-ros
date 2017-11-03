@@ -8,6 +8,7 @@
 #include <moveit_msgs/CollisionObject.h>
 
 #include <kinova_driver/kinova_ros_types.h>
+#include <memory>
 
 int main(int argc, char **argv)
 {

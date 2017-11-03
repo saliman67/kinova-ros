@@ -30,6 +30,7 @@
 #include <fstream>
 #include <pwd.h>
 #include <eigen_conversions/eigen_msg.h>
+#include <memory>
 
 namespace kinova
 {
